@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,200;1,400;1,500;1,600&family=Yatra+One&display=swap');
+
+*
+{
+
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'poppins';
+}
+
+body {
+   
+}
+
+div.wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: #858585;
+    min-height: 2rem;
+    display: grid;
+}
+
+main {
+    max-width: 600px;
+    background-color: lightgray;
+    min-height: 2rem;
+    min-width: 1000px;
+    align-self: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content:center;
+    align-items: center;
+}
+
+nav a{
+
+    margin: 10px;
+    text-decoration: none;
+    font-size:12px;
+}
+
+article h1{
+
+    text-align: center;
+    
+}
+
+article.chapterHeading p{
+
+    text-align:center;
+
+}
+
+
+
+.recipeCardsContainer {
+    display: grid;
+    height: 600px;;
+    width: 600px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: "yellow yellow yellow"
+    "red green blue"; 
+    grid-gap: 1rem;
+    overflow: hidden;
+    padding: 20px 200px 0 200px;
+    
+    
+   
+}
+.largeCard img {
+   Width: 600px;
+   height: 200px;
+}
+
+.yellow {
+    background-color: yellow;
+    grid-area: yellow;
+}
+
+.red {
+    background-color: white;
+    grid-area: red;
+}
+
+.green {
+    background-color: white;
+    grid-area: green;
+}
+
+.blue {
+    background-color: white;
+    grid-area: blue;
+}
+
+
+.smallCard img{
+
+    width: 200px;
+    height: 100px;
+}
+
+.text-card1 p{
+
+    font-size:8px;
+    margin: 0px 10px 0px 10px;
+}
+
+.text-card1 h5{
+
+  font-size:10px;
+  font-weight: 700;
+  margin-left:12px;
+  padding:6px 0px 6px 0px;
+}
+
+.text-card2 h5{
+
+    font-size:10px;
+    font-weight: 700;
+    margin-left:12px;
+    padding:6px 0px 6px 0px;  
+}
+
+.text-card3 h5{
+
+    font-size:10px;
+    font-weight: 700;
+    margin-left:12px;
+    padding:6px 0px 6px 0px;  
+}
+
+.text-card2 p{
+
+    font-size:8px;
+    margin: 0px 10px 0px 10px;
+}
+
+.text-card3 p{
+
+    font-size:8px;
+    margin: 0px 10px 0px 10px;
+}
+
+article.recipeCategoriesContainer{
+
+    display: grid;
+  grid-template-columns: auto auto auto auto; /* Creates four equal-width columns */
+  gap: 10px; /* Adjust the gap between images as needed */
+}
+
+
+
+
+article.recipeCard.smallCard.blu{
+
+    background-color:yellow;
+}
+
+article.recipeCategoriesContainer img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:0px 20px 0px 20px;
+}
